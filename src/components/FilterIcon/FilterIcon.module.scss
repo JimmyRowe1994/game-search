@@ -1,0 +1,31 @@
+.filterCheckbox {
+    display: none;
+
+    &:checked + label {
+        box-shadow: none;
+        border: solid 3px rgb(74, 160, 74);
+    }
+}
+
+.filterLabel {
+    overflow: hidden;
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    box-shadow: 1px 1px 2px 1px rgb(204, 204, 204);
+    padding: 10px;
+    box-sizing: border-box;
+    transition: all 0.25s ease-in-out;
+
+    &:hover {
+        cursor: pointer;
+        box-shadow: 1px 1px 2px 1px rgb(114, 114, 114);
+    }
+}
+
+.filterImage {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
